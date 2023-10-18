@@ -1,0 +1,30 @@
+.coding_challenge_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  .coding_challenge_title {
+    color: #7e26d8;
+  }
+}
+
+.switch_buttons {
+  display: flex;
+  justify-content: revert;
+  align-items: center;
+  .switch_button {
+    color: #7e26d8;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.1);
+    width: 14%;
+    margin-bottom: 23px;
+    margin-right: 12px;
+    &:hover {
+      background-color: #7e26d8;
+      color: #fff;
+    }
+  }
+}

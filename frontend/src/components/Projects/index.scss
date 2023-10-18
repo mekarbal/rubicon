@@ -1,0 +1,60 @@
+th {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 600;
+}
+tbody .table_row {
+  td {
+    border-bottom: 12px solid #f7f9fa;
+    background-color: white;
+    border-radius: 12px;
+  }
+  .description {
+    min-width: 9em;
+    max-width: 20em;
+    word-wrap: break-word;
+  }
+  .calendar_date {
+    align-items: center;
+  }
+  .createdAt_date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #75b7ff;
+    color: #3389e9;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .updateddAt_date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd6ab;
+    color: #d8a657;
+    border-radius: 3px;
+    padding: 0px 10px;
+    font-size: 13px;
+  }
+  .actions_buttons {
+    display: flex;
+    flex-direction: row;
+    .action_button {
+      cursor: pointer;
+    }
+  }
+}
+.add_project_button {
+  float: right;
+  color: #7e26d8;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 23px;
+  &:hover {
+    background-color: #7e26d8;
+    color: #fff;
+  }
+}

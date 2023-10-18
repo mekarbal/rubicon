@@ -1,0 +1,38 @@
+.modal_header {
+  padding: 20px 18px 7px 26px;
+  display: flex;
+  justify-content: space-between;
+  .header_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .fill_attributes {
+      color: #9596a4;
+      font-size: 17px;
+    }
+    .add_new_text {
+      font-weight: 700;
+      font-size: 22px;
+    }
+  }
+}
+.form_label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+.cancel_button {
+  border-color: #9596a4;
+  width: 21%;
+}
+
+.save_button {
+  border-color: #7e26d8;
+  background-color: #7e26d8;
+  color: #ffffff;
+  width: 21%;
+  &:hover {
+    color: #7e26d8;
+    background-color: #ffffff;
+  }
+}
